@@ -1,0 +1,34 @@
+/* 通用样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 相册盒子 */
+.album{
+    position: relative;
+    background: #000000;
+    text-align: center;
+    overflow: hidden;
+}
+/* 图片 */
+.album  img{
+    display: block;
+    float: left;
+    width: 22%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: #ecec15 solid 3px;
+    padding: 3px;
+    margin: 5px 1.5% ;
+}
+/* 遮罩层 */
+.img-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: #000000;
+    z-index: 2;
+}
